@@ -1,0 +1,41 @@
+/* ==================== Стили шрифтов ==================== */
+
+@mixin style_h3 ($fz: 18px, $fw: 400, $lh: 27px) {
+    font-family: "Montserrat";
+    font-size: $fz;
+    font-weight: $fw;
+    line-height: $lh;
+    color: #010201;
+}
+
+@mixin style_h2 ($fz: 44px, $fw: 700, $lh: 61.6px) {
+    font-family: "Montserrat";
+    font-size: $fz;
+    font-weight: $fw;
+    line-height: $lh;
+    color: #010201;
+}
+
+@mixin style_h1 ($fz: 50px, $fw: 700, $lh: 70px) {
+    font-family: "Montserrat";
+    font-size: $fz;
+    font-weight: $fw;
+    line-height: $lh;
+    color: #010201;
+}
+
+@mixin button ($width: 300px, $height: 70px, $br: 80px,
+    $fz: 18px, $fw: 500, $lh: 27px) {
+    background: #FFDD00;
+    font-family: "Montserrat";
+    font-size: $fz;
+    font-weight: $fw;
+    line-height: $lh;
+    width: $width;
+    height: $height;
+    border-radius: $br;
+    color: #000000;
+    /* box-shadow: inset 2px -2px 12px 0px rgba(34, 111, 33, 0.36);
+    box-shadow: 0px 0px 0px 10px rgba(120, 192, 129, 0.25); */
+    transition: .6s;
+}
