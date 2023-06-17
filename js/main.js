@@ -21,9 +21,10 @@ new Swiper('.choice__slider', {
     slidesPerView: 'auto',
     spaceBetween: 20,
     slideClass: "choice__slider-item",
-    // navigation: {
-    //     nextEl: ".availability__arrows-right",
-    //     prevEl: ".availability__arrows-left"
-    // },
+    navigation: {
+        nextEl: ".choice__arrows-right",
+        prevEl: ".choice__arrows-left"
+    },
     speed: 1300,
 });
+
