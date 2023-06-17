@@ -637,6 +637,31 @@ a {
   padding: 23px;
   margin-bottom: 12px;
   background-color: #010201;
+  color: #ffffff;
+  -webkit-transition: 0.6s;
+  -o-transition: 0.6s;
+  transition: 0.6s;
+}
+.application__form-input::-webkit-input-placeholder {
+  color: #FFFFFF;
+}
+.application__form-input::-moz-placeholder {
+  color: #FFFFFF;
+}
+.application__form-input:-ms-input-placeholder {
+  color: #FFFFFF;
+}
+.application__form-input::-ms-input-placeholder {
+  color: #FFFFFF;
+}
+.application__form-input::placeholder {
+  color: #FFFFFF;
+}
+.application__form-input:focus {
+  border: 1px solid #FFDD00;
+  -webkit-transition: 0.6s;
+  -o-transition: 0.6s;
+  transition: 0.6s;
 }
 .application__btn {
   background: #FFDD00;
