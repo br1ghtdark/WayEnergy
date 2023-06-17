@@ -300,6 +300,7 @@ a {
   color: #FFDD00;
 }
 .availability__arrows-left.swiper-button-disabled {
+  color: #010201;
   background-color: #F4F4F4;
   -webkit-transition: 0.6s;
   -o-transition: 0.6s;
@@ -335,6 +336,7 @@ a {
   color: #FFDD00;
 }
 .availability__arrows-right.swiper-button-disabled {
+  color: #010201;
   background: #FFFFFF;
   -webkit-transition: all 0.6s;
   -o-transition: all 0.6s;
