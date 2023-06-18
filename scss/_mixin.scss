@@ -16,7 +16,39 @@
     color: #010201;
 }
 
+@mixin style_h2_pad ($fz: 34px, $fw: 700, $lh: 51px) {
+    font-family: "Montserrat";
+    font-size: $fz;
+    font-weight: $fw;
+    line-height: $lh;
+    color: #010201;
+
+}
+@mixin style_h2_mob ($fz: 20px, $fw: 700, $lh: 30px) {
+    font-family: "Montserrat";
+    font-size: $fz;
+    font-weight: $fw;
+    line-height: $lh;
+    color: #010201;
+}
+
 @mixin style_h1 ($fz: 50px, $fw: 700, $lh: 70px) {
+    font-family: "Montserrat";
+    font-size: $fz;
+    font-weight: $fw;
+    line-height: $lh;
+    color: #010201;
+}
+
+@mixin style_h1_pad ($fz: 40px, $fw: 700, $lh: 57px) {
+    font-family: "Montserrat";
+    font-size: $fz;
+    font-weight: $fw;
+    line-height: $lh;
+    color: #010201;
+}
+
+@mixin style_h1_mob ($fz: 27px, $fw: 700, $lh: 38px) {
     font-family: "Montserrat";
     font-size: $fz;
     font-weight: $fw;
@@ -41,6 +73,5 @@
         background: #010201;
         transition: .6s;
         color: #FFDD00;
-
     }
 }
