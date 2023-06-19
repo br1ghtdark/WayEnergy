@@ -22,7 +22,7 @@ $('.burger').toggleClass('burger--active')
 /* =============================AVAILABILITY-SLIDER============================ */
 
 new Swiper('.availability__slider', {
-    slidesPerView: 'auto',
+    slidesPerView: "auto",
     spaceBetween: 20,
     slideClass: "availability__slider-item",
     navigation: {
@@ -37,7 +37,7 @@ new Swiper('.availability__slider', {
 /* =============================CHOICE-SLIDER============================ */
 
 new Swiper('.choice__slider', {
-    slidesPerView: 'auto',
+    slidesPerView: "auto",
     spaceBetween: 20,
     slideClass: "choice__slider-item",
     navigation: {
