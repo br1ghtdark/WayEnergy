@@ -76,6 +76,16 @@
 
     &__number {
 
+        &-wa svg{
+            height: 39px;
+            width: 39px;
+        }
+
+        &-phone svg {
+            height: 39px;
+            width: 39px;
+        }
+
         &-btn {
             @include style_h3 ($fz: 18px, $fw: 500, $lh: 27px);
             width: 295px;
@@ -84,6 +94,7 @@
             border-radius: 80px;
             background-color: #FFFFFF;
             transition: .6s;
+            
 
             &:hover {
                 border: 1px solid #FFDD00;
@@ -745,6 +756,12 @@
             @include style_h3 ($fz: 18px, $fw: 400, $lh: 27px);
             position: relative;
 
+            & a svg {
+                width: 39px;
+                height: 39px;
+                
+            }
+
             & a::after {
                 content: url(../Icons/warning.svg);
                 position: absolute;
@@ -1074,20 +1091,20 @@
         right: 38px;
         height: 69px;
         width: 69px;
-        /* background: rgba(255, 255, 255, 0.45); */
+        background: rgba(255, 255, 255, 0.45);
         border-radius: 15px;
         z-index: 200;
 
         &__container {
             position: relative;
-            /* background: #FFFFFF; */
+            background: #FFFFFF;
             height: 49px;
             width: 49px;
             border-radius: 15px;
             display: flex;
             align-items: center;
             justify-content: center;
-            /* box-shadow: 0 4px 10px 0 rgba(73, 93, 76, 0.15); */
+            box-shadow: 0 4px 10px 0 rgba(73, 93, 76, 0.15);
 
             &::after {
                 position: absolute;
@@ -1095,7 +1112,7 @@
                 content: "";
                 right: 12px;
                 display: block;
-                height: 2px;
+                height: 3px;
                 width: 27px;
                 margin: 5px 0;
                 border-radius: 3px;
@@ -1109,7 +1126,7 @@
                 top: 10px;
                 right: 12px;
                 display: block;
-                height: 2px;
+                height: 3px;
                 width: 27px;
                 margin: 5px 0;
                 border-radius: 3px;
@@ -1120,7 +1137,7 @@
 
         &__firstline {
             display: block;
-            height: 2px;
+            height: 3px;
             width: 27px;
             border-radius: 3px;
             background-color: #010201;
@@ -1138,7 +1155,7 @@
             & .burger__container::before {
                 content: "";
                 transform: rotate(45deg);
-                top: 18.5px;
+                top: 17.5px;
                 border-radius: 3px;
                 background-color: #010201;
                 transition: all 0.4s;
